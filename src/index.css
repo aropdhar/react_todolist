@@ -1,0 +1,79 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.input_design{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+  width: 400px;
+  margin: 0 auto;
+  background: #eeee;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.4);
+
+}
+
+.input_main .input_design input{
+
+  width: 280px;
+  padding: 10px 0 10px 10px;
+  border-radius: 10px;
+}
+
+.input_main{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.input_main .task_main ul{
+
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+
+}
+
+button{
+
+  background: green;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.task_main{
+
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #eeee;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.4);
+}
+
+.task_card{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+}
